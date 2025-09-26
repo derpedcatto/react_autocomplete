@@ -93,7 +93,6 @@ export const Autocomplete: React.FC<Props> = ({
                   href="#"
                   className="dropdown-item"
                   data-cy="suggestion-item"
-                  // Use onMouseDown to prevent onBlur from closing the dropdown before the click is registered
                   onMouseDown={() => handleSuggestionClick(person)}
                 >
                   <p
